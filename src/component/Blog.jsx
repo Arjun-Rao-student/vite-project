@@ -5,7 +5,7 @@ import Dup_Blog from './Dup_Blog'
 function Blog() {
   return (
     <div>
-      <div className="flex flex-col m-10 gap-y-4 justify-around">
+      <div className="flex flex-col mt-10 gap-y-4 justify-around">
         <div className="flex flex-col  mx-auto justify-center">
           <h1 className="font-bold text-4xl">Blog</h1>
           <hr className="mt-3 w-10 h-1 rounded mx-auto bg-green-400"/>
