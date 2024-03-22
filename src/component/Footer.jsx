@@ -30,7 +30,7 @@ function Footer() {
 
       <div className="pl-20 pt-5 pb-5 pr-5">
         <h2>
-          <b className="text-green-800">SERVICES</b>
+          <b >SERVICES</b>
         </h2>
         <div className="flex flex-col ">
           <p className="pt-4 hover:text-green-700">
@@ -52,7 +52,7 @@ function Footer() {
       </div>
       <div className="pl-20 pt-5 pb-5 pr-5">
         <h2>
-          <b className="text-green-800">CATEGORIES</b>
+          <b >CATEGORIES</b>
         </h2>
         <div className="flex flex-col ">
           <p className="pt-4 hover:text-green-700">
