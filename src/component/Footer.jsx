@@ -4,7 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaRegAddressCard } from "react-icons/fa";
 function Footer() {
   return (
-    <div className="flex  mx-auto bgr_clr justify-center ">
+    <div className="flex  mx-auto bgr_clr justify-around ">
       <div className="p-5">
         <a href="">
           {" "}
@@ -69,7 +69,7 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="pl-20 pt-5 pb-5 pr-5">
+      <div className="pl-0 pt-5 pb-5 pr-5 " >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32776.297300620245!2d83.1548703322435!3d17.741148764613946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3967c285913e03%3A0x2f014d6c1013507e!2sMeghadri%20gedda%20waterfalls!5e0!3m2!1sen!2sin!4v1711099134412!5m2!1sen!2sin"
           width="400"
