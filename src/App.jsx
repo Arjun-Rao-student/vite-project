@@ -8,7 +8,6 @@ import Nav from "./component/Nav";
 import Header from "./component/Header";
 import Banner from "./component/Banner"
 import Showcase from "./component/Showcase";
-import Banner1 from "./component/Banner_mid";
 import Banner_mid from "./component/Banner_mid";
 
 
