@@ -9,7 +9,7 @@ function Categories() {
             <hr className="mt-3 w-24 h-1 rounded mx-auto bg-green-400"/>
         </div>
       <div className="flex flex-row  justify-center">
-        <Dup_categories img="public/Categories/vegitables.jpeg" alt="mint" name="Vegitables"/>
+        <Dup_categories img="public/Categories/vegitables.jpeg" alt="mint" name="Vegetables"/>
         <Dup_categories img="public/Categories/grocery.jpeg" alt="Grocery" name="Groceries"/>
         <Dup_categories img="public/Categories/milkproducts.jpeg" alt="Milk " name="Milk Products"/>
         <Dup_categories img="public/Categories/rare1jpeg.jpeg" alt="Speacial Items" name="Speacial Items"/>
