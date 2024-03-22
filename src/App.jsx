@@ -1,5 +1,6 @@
+<<<<<<< HEAD
 
-import Blog from "./components/Blog"
+import Blog from "./component/Blog"
 
 
 
@@ -11,7 +12,14 @@ function App() {
     <>
       <Blog/>
       </>
+=======
+import Categories from "./component/Categories"
+function App() {
+ return (
+    <>
+     <Categories />
+    </>
+>>>>>>> cat
   )
 }
-
 export default App
