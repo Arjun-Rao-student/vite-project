@@ -16,7 +16,7 @@ function Categories() {
         <Dup_categories img="public/Categories/Organic.jpeg" alt="Organic" name="Comming Soon"/>
     </div>
      </>
-  )
+  );
 }
 
 export default Categories

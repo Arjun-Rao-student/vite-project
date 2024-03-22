@@ -7,7 +7,7 @@ import React from 'react'
            <button className=" hover:text-green-400 text-black font-bold py-3 px-3  text-lg font-serif	">{props.name}</button>
             </div>
         </div> 
-    )
+    );
 }
 
   export default Dup_categories
