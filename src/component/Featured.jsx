@@ -5,9 +5,9 @@ import Dup_Featured from "./Dup_Featured"
 function Featured() {
   return (
     <>
-    <div className="flex flex-row justify-center  font-bold text-2xl ">
-        <h1 className="flex">Featured product</h1>
-        <hr className="mt-4 w-57 h-1 bg-green-700"/>
+    <div className="flex flex-col justify-center  font-bold text-2xl mt-8  mb-6">
+        <h1 className="flex  justify-center">Featured product</h1>
+        <hr className="mt-3 w-24 h-1 rounded mx-auto bg-green-400"/>
     </div>
     
 
