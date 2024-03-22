@@ -7,7 +7,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 function Dup_Blog(props) {
   return (
     <div>
-      <div className="bg-green-100 max-w-sm p-3">
+      <div className="bg-green-50 max-w-sm p-3">
         <img src={props.img} alt={props.alt} className="mb-5 w-full size-40" />
         <div className="flex flex-row my-3">
           <IoCalendarNumberOutline size={25} />
