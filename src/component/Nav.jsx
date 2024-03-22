@@ -5,7 +5,7 @@ import { TfiLinkedin } from "react-icons/tfi";
 import { FaPinterestP } from "react-icons/fa";
 function Nav() {
   return (
-    <div className="flex flex-row w-screen bg-gray-300 gap-x-10 p-3 justify-around">
+    <div className="flex flex-row w-screen arjun gap-x-10 p-3 justify-around">
       <div className="flex flex-row gap-x-20 my-auto">
         <button>hello@ecommerce.com</button>
         <p>Free Shipping for all Order of Rs 200</p>
