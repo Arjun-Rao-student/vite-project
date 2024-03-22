@@ -2,7 +2,9 @@
 
 import Blog from "./component/Blog"
 import Categories from "./component/Categories"
+import Footer from "./component/Footer";
 import Nav from "./component/Nav"
+
 
 function App() {
 
@@ -10,8 +12,9 @@ function App() {
   return (
     <>
     <Nav/>
-<Categories />
+     <Categories />
       <Blog/>
+      <Footer />
       </>
   );
     
