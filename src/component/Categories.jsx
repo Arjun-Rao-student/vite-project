@@ -1,6 +1,6 @@
 import React from 'react'
 import Dup_categories from './Dup_categories'
-
+import {Link} from "react-router-dom";
 function Categories() {
   return (
     <>
