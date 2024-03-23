@@ -4,6 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaRegAddressCard } from "react-icons/fa";
 function Footer() {
   return (
+    <>
     <div className="flex  mx-auto bgr_clr justify-around ">
       <div className="p-5">
         <a href="">
@@ -79,7 +80,10 @@ function Footer() {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      
     </div>
+    <div className="flex  justify-center bgr_clr"> <p>© 2024 All Rights Reserved by</p><strong>My Team </strong> </div>
+    </>
   );
 }
 
