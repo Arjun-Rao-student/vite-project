@@ -9,3 +9,13 @@
 .bgr_clr{
   background-color: rgb(233, 241, 252);
 }
+
+.horizontal-scroll-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  white-space: nowrap; /* Prevent items from wrapping */
+}
+
+.horizontal-scroll {
+  display: inline-flex; /* Display items in a row */
+}

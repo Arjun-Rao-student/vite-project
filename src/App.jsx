@@ -9,7 +9,7 @@ import Header from "./component/Header";
 import Banner from "./component/Banner"
 import Showcase from "./component/Showcase";
 import Banner_mid from "./component/Banner_mid";
-// import Cards from "./component/Cards";
+import Cards from "./component/Cards";
 // import Bulk_Form from "./component/Bulk_Form";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
 
   return (
     <>
+
     <Nav/>
     <Header />
     <Banner />
