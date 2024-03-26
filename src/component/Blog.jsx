@@ -1,17 +1,16 @@
-import React from 'react'
-import Dup_Blog from './Dup_Blog'
-
+import React from "react";
+import Dup_Blog from "./Dup_Blog";
 
 function Blog() {
   return (
     <div>
       <div className="flex flex-col mt-10 gap-y-4 justify-around">
-        <div className="flex flex-col  mx-auto justify-center">
+        <div className="flex flex-col mx-auto justify-center">
           <h1 className="font-bold text-4xl">Blog</h1>
-          <hr className="mt-3 w-10 h-1 rounded mx-auto bg-green-400"/>
+          <hr className="mt-3 w-10 h-1 rounded mx-auto bg-green-400" />
         </div>
 
-        <div className="flex flex-row mx-auto gap-x-6 p-12 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-12">
           <Dup_Blog
             img="public\Blog\ar-1.jpg"
             heading="Beans"
@@ -39,4 +38,4 @@ function Blog() {
   );
 }
 
-export default Blog
+export default Blog;
