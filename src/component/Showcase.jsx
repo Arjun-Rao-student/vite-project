@@ -33,21 +33,21 @@ function Showcase(props) {
         </div>
       </div>
 
-      <div className="flex flex-row gap-5 justify-around horizontal-scroll-container ml-20 text-sm">
+      
         <div>
           <h2 className=" justify-around font-bold text-2xl">
             Premium Products
           </h2>
-          <div className="flex flex-row scroll-auto w-64">
+          
             <div className="flex flex-col mt-10">
               <Dup_showcase img="../sample_cart/Cap.jpg" item="carrot" itemprice="40" /><br />
               <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" /><br />
               <Dup_showcase img="../sample_cart/piece.jpg" item="potato" itemprice="40" />
             </div>
-        </div>
+        
       </div>
       </div>
-      </div>
+    
       </>
   );
 }

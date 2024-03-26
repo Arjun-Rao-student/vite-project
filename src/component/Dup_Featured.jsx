@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 function Dup_Featured(props ) {
   return (
     <div>
-         <div className='flex flex-row justify-center m-8 gap-x-5 '>
+         <div className='flex flex-row justify-center '>
         <div className='flex flex-col '>
        <img src={props.img} alt={props.alt} width={180} height={180} />
         <p className='flex justify-center'>{props.name}</p>
