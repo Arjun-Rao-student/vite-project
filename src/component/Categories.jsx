@@ -10,15 +10,15 @@ function Categories() {
         <hr className="mt-3 w-24 h-1 rounded mx-auto bg-green-400" />
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center">
+      <div className="flex flex-col md:flex-row justify-center gap-x-12">
         {/* First row */}
-        <div className="flex flex-row justify-center mb-4 md:mb-0">
+        <div className="flex flex-row justify-center mb-4 md:mb-0 gap-x-12">
           <Dup_categories img="public/Categories/vegitables.jpeg" alt="mint" name="Vegetables" />
           <Dup_categories img="public/Categories/milkproducts.jpeg" alt="Milk " name="Milk Products" />
         </div>
 
         {/* Second row */}
-        <div className="flex flex-row justify-center mb-4 md:mb-0">
+        <div className="flex flex-row justify-center mb-4 md:mb-0 gap-x-12">
           <Dup_categories img="public/Categories/rare1jpeg.jpeg" alt="Speacial Items" name="Speacial Items" />
           <Dup_categories img="public/Categories/grocery.jpeg" alt="Grocery" name="Groceries" />
         </div>
