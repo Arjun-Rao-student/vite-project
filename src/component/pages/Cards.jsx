@@ -1,5 +1,5 @@
 import React from 'react'
-import Dup_cards from './Dup_cards'
+import Dup_cards from '../Dup_cards'
 import { IoCartOutline } from "react-icons/io5";
 function Cards() {
   return (
