@@ -13,7 +13,7 @@ function Categories() {
       <div className="flex flex-col md:flex-row justify-center gap-x-12">
         {/* First row */}
         <div className="flex flex-row justify-center mb-4 md:mb-0 gap-x-12">
-          <Dup_categories img="public/Categories/vegitables.jpeg" alt="mint" name="Vegetables" />
+          <Link to="vegetables"><Dup_categories img="public/Categories/vegitables.jpeg" alt="mint" name="Vegetables" /></Link>
           <Dup_categories img="public/Categories/milkproducts.jpeg" alt="Milk " name="Milk Products" />
         </div>
 

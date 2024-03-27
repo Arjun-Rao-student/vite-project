@@ -27,7 +27,7 @@ function Nav() {
         <button className="md:ml-auto">Location</button>
 
         {/* Login button */}
-        <button className="font-bold">Login</button>
+        <button className="font-bold gap-x-7 mr-6">SignUp/Login</button>
       </div>
     </div>
   );

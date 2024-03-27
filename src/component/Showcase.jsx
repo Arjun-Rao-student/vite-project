@@ -7,14 +7,13 @@ function Showcase(props) {
       <div className="flex flex-col items-center">
         <div className="flex flex-col mt-5 sm:flex-row sm:justify-center sm:gap-20">
           <div className="flex flex-col">
-            <div className="flex flex-col">
+            <div className="flex flex-col mt-10">
               <h2 className="justify-around font-bold text-2xl">
                 Latest Products
               </h2>
               <div className="flex flex-col mt-10">
                 <Dup_showcase img="../sample_cart/Cap.jpg" item="carrot" itemprice="40" />
-                <br />
-                <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" /><br />
+                <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" />
                 <Dup_showcase img="../sample_cart/piece.jpg" item="potato" itemprice="40" />
               </div>
             </div>
@@ -26,8 +25,8 @@ function Showcase(props) {
                 Local Products
               </h2>
               <div className="flex flex-col mt-10">
-                <Dup_showcase img="../sample_cart/Cap.jpg" item="carrot" itemprice="40" /><br />
-                <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" /><br />
+                <Dup_showcase img="../sample_cart/Cap.jpg" item="carrot" itemprice="40" />
+                <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" />
                 <Dup_showcase img="../sample_cart/piece.jpg" item="potato" itemprice="40" />
               </div>
             </div>
@@ -39,8 +38,8 @@ function Showcase(props) {
                 Premium Products
               </h2>
               <div className="flex flex-col mt-10">
-                <Dup_showcase img="../sample_cart/Cap.jpg" item="carrot" itemprice="40" /><br />
-                <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" /><br />
+                <Dup_showcase img="../sample_cart/Cap.jpg" item="carrot" itemprice="40" />
+                <Dup_showcase img="../sample_cart/leaf.jpg" item="tomato" itemprice="40" />
                 <Dup_showcase img="../sample_cart/piece.jpg" item="potato" itemprice="40" />
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { IoIosHeart } from "react-icons/io";
 import { FaCartPlus } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,13 +17,13 @@ function Header() {
         <button className="font-bold hover:text-green-500">Categories</button>
         <button className="font-bold hover:text-green-500">Blog</button>
         <button className="font-bold hover:text-green-500">About</button>
-        <button className="font-bold hover:text-green-500">Bulk Order</button>
+        <button className="font-bold hover:text-green-500"> <Link to='bulkOrder'>Bulk Order </Link></button>
         <div className=" my-auto">
           <input type="text" placeholder='Search Here'  className="p-1 my-auto rounded-l-lg" />
           <button className="p-1 bg-blue-300  rounded-r-lg">Search</button>
         </div>
       </div>
-      <div className='flex items-center hea ml-8 gap-x-1'>
+      <div className='flex items-center  mr-10 gap-x-4'>
         <IoIosHeart className='size-6'/>
         <button className="flex flex-row "><FaCartPlus className='size-6'/></button>
       </div>
