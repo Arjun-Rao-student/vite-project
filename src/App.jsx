@@ -11,16 +11,17 @@ import Cards from "./component/pages/Cards";
 import { BrowserRouter,Route, Routes } from "react-router-dom";
 import Layout from "./component/Layout";
 import Bulk_Form from "./component/Bulk_Form";
+import Card_details from "./component/pages/Card_details";
 
 function App() {
-
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}/>
-        <Route path="vegetables" element={<Cards/>}/>
-        <Route path="bulkOrder" element={<Bulk_Form /> }/>   
+        <Route path="/vegetables" element={<Cards/>}/>
+        <Route path="/bulkOrder" element={<Bulk_Form /> }/>
+        <Route path="/productDetails" element={<Card_details/> }/> 
       </Routes>
     </BrowserRouter>
   );

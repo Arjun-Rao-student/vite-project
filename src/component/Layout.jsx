@@ -9,6 +9,8 @@ import Showcase from './Showcase'
 import Blog from './Blog'
 import Footer from './Footer'
 import Bulk_Form from './Bulk_Form'
+import Card_details from './pages/Card_details'
+
 
 
 
@@ -17,6 +19,7 @@ import Bulk_Form from './Bulk_Form'
 function Layout() {
   return (
     <>
+    
     <Nav/>
     <Header />
     <Banner />

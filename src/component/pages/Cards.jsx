@@ -1,6 +1,7 @@
 import React from 'react'
 import Dup_cards from '../Dup_cards'
 import { IoCartOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 function Cards() {
   return (
     <>
@@ -13,7 +14,7 @@ function Cards() {
     </div>
     <div className="flex flex-row justify-center">
         <Dup_cards img="/products/Capsicum.jpg" alt="Capsicum" name="Capsicum" Dcost="30" Ocost="60" discount="50%" />
-        <Dup_cards img="/products/Carrot.jpg" alt="Carrot" name="Carrot" Dcost="30" Ocost="60" discount="50%" />
+       <Link to="productDetails"> <Dup_cards img="/products/Carrot.jpg" alt="Carrot" name="Carrot" Dcost="30" Ocost="60" discount="50%" /></Link>
         <Dup_cards img="/products/Cauliflower.jpg" alt="Cauliflower" name="Cauliflower" Dcost="30" Ocost="60" discount="50%" />
         <Dup_cards img="/products/cluster_bean.jpg" alt="Cluster_bean" name="Cluster Bean" Dcost="30" Ocost="60" discount="50%" />
         <Dup_cards img="/products/Garlic.jpg" alt="Garlic" name="Garlic" Dcost="30" Ocost="60" discount="50%" />
