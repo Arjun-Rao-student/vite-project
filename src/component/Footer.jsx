@@ -53,7 +53,7 @@ function Footer() {
           <h2 className="font-bold">CATEGORIES</h2>
           <ul className="py-4">
             <li className="py-2 hover:text-green-700">
-           Vegitables
+           <a href="/vegetables"Vegitables
             </li>
             <li className="py-2 hover:text-green-700">
               <a href="/">Grocery</a>
