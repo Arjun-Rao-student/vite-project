@@ -10,7 +10,7 @@ function Cards() {
   return (
     <>
     <Nav />
-    <Header />
+    
     <Banner />
     <div className="flex flex-row justify-center">
         <Dup_cards img="/products/Beans.jpg" alt="Beans" name="Beans" Dcost="30" Ocost="60" discount="50%" />
