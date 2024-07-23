@@ -53,7 +53,7 @@ function Footer() {
           <h2 className="font-bold">CATEGORIES</h2>
           <ul className="py-4">
             <li className="py-2 hover:text-green-700">
-           <a href="/vegetables">Vegitables</a>
+           <a href="https://ecom-tau-topaz.vercel.app/vegetables">Vegitables</a>
             </li>
             <li className="py-2 hover:text-green-700">
               <a href="/">Grocery</a>
