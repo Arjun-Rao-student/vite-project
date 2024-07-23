@@ -13,17 +13,17 @@ function Categories() {
       <div className="flex flex-col md:flex-row justify-center gap-x-12">
         {/* First row */}
         <div className="flex flex-row justify-center mb-4 md:mb-0 gap-x-12">
-          <Link to="vegetables"><Dup_categories img="public/Categories/vegitables.jpeg" alt="mint" name="Vegetables" /></Link>
-          <Dup_categories img="public/Categories/milkproducts.jpeg" alt="Milk " name="Milk Products" />
+          <Link to="vegetables"><Dup_categories img="Categories/vegitables.jpeg" alt="mint" name="Vegetables" /></Link>
+          <Dup_categories img="Categories/milkproducts.jpeg" alt="Milk " name="Milk Products" />
         </div>
 
         {/* Second row */}
         <div className="flex flex-row justify-center mb-4 md:mb-0 gap-x-12">
-          <Dup_categories img="public/Categories/rare1jpeg.jpeg" alt="Speacial Items" name="Speacial Items" />
-          <Dup_categories img="public/Categories/grocery.jpeg" alt="Grocery" name="Groceries" />
+          <Dup_categories img="Categories/rare1jpeg.jpeg" alt="Speacial Items" name="Speacial Items" />
+          <Dup_categories img="Categories/grocery.jpeg" alt="Grocery" name="Groceries" />
         </div>
         <div className="flex flex-row justify-center mb-4 md:mb-0">
-        <Dup_categories img="public/Categories/Organic.jpeg" alt="Organic" name="Coming Soon" />
+        <Dup_categories img="Categories/Organic.jpeg" alt="Organic" name="Coming Soon" />
         </div>
       </div>
     </>
