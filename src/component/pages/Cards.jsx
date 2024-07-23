@@ -2,9 +2,16 @@ import React from 'react'
 import Dup_cards from '../Dup_cards'
 import { IoCartOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Nav from '../Nav';
+import Banner from '../Banner';
+ import Footer from '../Footer';
+import Header from '../Header';
 function Cards() {
   return (
     <>
+    <Nav />
+    <Header />
+    <Banner />
     <div className="flex flex-row justify-center">
         <Dup_cards img="/products/Beans.jpg" alt="Beans" name="Beans" Dcost="30" Ocost="60" discount="50%" />
         <Dup_cards img="/products/bitter_gourd.jpg" alt="BitterGourd" name="BitterGourd" Dcost="25" Ocost="40" discount="40%" />
@@ -68,6 +75,7 @@ function Cards() {
         <Dup_cards img="/glb_products/sugar_free_potato.jpg" alt="Sugar free potato" name="Sugar free potato" Dcost="30" Ocost="60" discount="50%" />
         <Dup_cards img="/glb_products/Sweet_potato.jpg" alt="Sweet potato" name="Sweet potato" Dcost="50" Ocost="60" discount="50%" />
     </div>
+      <Footer />
     </>
   )
 }
