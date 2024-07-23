@@ -12,21 +12,21 @@ function Blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-12">
           <Dup_Blog
-            img="public\Blog\ar-1.jpg"
+            img="Blog/ar-1.jpg"
             heading="Beans"
             text="hi this is very special product. You can buy this from only this website . its very trusted website"
             date="21 March 2024"
             count="5"
           />
           <Dup_Blog
-            img="public\Blog\ar-2.jpg"
+            img="Blog/ar-2.jpg"
             heading="Orange Fruit "
             text="hi this is very special product. You can buy this from only this website . its very trusted website"
             date="21 March 2024"
             count="6"
           />
           <Dup_Blog
-            img="public\Blog\ar-3.jpg"
+            img="Blog/ar-3.jpg"
             heading="Juices"
             text="hi this is very special product. You can buy this from only this website . its very trusted website"
             date="21 March 2024"
