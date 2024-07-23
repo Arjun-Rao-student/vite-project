@@ -15,11 +15,11 @@ function Footer() {
           <ul className="py-4">
             <li className="flex items-center py-2">
               <FaRegAddressCard className="w-6 h-6 mr-2" />
-              <span>Address: 4-38/2 kothapalem</span>
+              <span>Address: 4-38/2 VIJAYAWADA,AP</span>
             </li>
             <li className="flex items-center py-2">
               <FaPhoneAlt className="w-6 h-6 mr-2" />
-              <span>Phone: +91 9553962593</span>
+              <span>Phone: +91 6302049295</span>
             </li>
             <li className="flex items-center py-2">
               <MdOutlineMail className="w-7 h-7 mr-2" />
